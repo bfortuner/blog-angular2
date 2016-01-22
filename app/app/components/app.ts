@@ -4,7 +4,7 @@ import {
   ROUTER_DIRECTIVES
 } from 'angular2/router';
 
-import {HomeCmp} from '../../home/components/home';
+import {PostsCmp} from '../../posts/components/posts';
 import {AboutCmp} from '../../about/components/about';
 import {NameList} from '../../shared/services/name_list';
 
@@ -17,7 +17,7 @@ import {NameList} from '../../shared/services/name_list';
   directives: [ROUTER_DIRECTIVES]
 })
 @RouteConfig([
-  { path: '/', component: HomeCmp, as: 'Home' },
+  { path: '/', component: PostsCmp, as: 'Posts' },
   { path: '/about', component: AboutCmp, as: 'About' }
 ])
 export class AppCmp {}

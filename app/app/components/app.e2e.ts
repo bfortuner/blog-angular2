@@ -16,8 +16,8 @@ describe('App', function() {
       expect(element(by.css('app section nav')).isPresent()).toEqual(true);
   });
 
-  it('should have correct nav text for Home', function() {
-      expect(element(by.css('app section nav a:first-child')).getText()).toEqual('Home');
+  it('should have correct nav text for Posts', function() {
+      expect(element(by.css('app section nav a:first-child')).getText()).toEqual('Posts');
   });
 
   it('should have correct nav text for About', function() {
