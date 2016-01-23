@@ -11,6 +11,8 @@
 </head>
 <body>
 
+  <!--This is the app Component designated by the CSS selector
+  app defined in app.js @Component decorator-->
   <app>Loading...</app>
 
   <!-- shims:js -->
@@ -29,7 +31,7 @@
     System.import('<%= BOOTSTRAP_MODULE %>')
       .catch(function (e) {
         console.error(e,
-          'Report this error at https://github.com/mgechev/angular2-seed/issues');
+          'Report this error to <%= ADMIN_EMAIL %>');
       });
   </script>
   <% } %>

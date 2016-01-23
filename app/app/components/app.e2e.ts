@@ -5,7 +5,7 @@ describe('App', function() {
   });
 
   it('should have a title', function() {
-      expect(browser.getTitle()).toEqual('My Angular2 App');
+      expect(browser.getTitle()).toEqual('Brendan Fortuner Blog');
   });
 
   it('should have <section>', function() {

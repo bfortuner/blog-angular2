@@ -21,9 +21,11 @@ export const APP_BASE             = argv['base']        || '/';
 export const ENABLE_HOT_LOADING   = !!argv['hot-loader'];
 export const HOT_LOADER_PORT      = 5578;
 
+// This points to the bootstrap module main.ts which launches the app
 export const BOOTSTRAP_MODULE     = ENABLE_HOT_LOADING ? 'hot_loader_main' : 'main';
 
-export const APP_TITLE            = 'My Angular2 App';
+export const APP_TITLE            = 'Brendan Fortuner Blog';
+export const ADMIN_EMAIL          = 'bfortuner@gmail.com';
 
 export const APP_SRC              = 'app';
 export const ASSETS_SRC           = `${APP_SRC}/assets`;
@@ -85,6 +87,9 @@ export const PROD_DEPENDENCIES = PROD_NPM_DEPENDENCIES.concat(APP_ASSETS);
 
 // ----------------
 // SystemsJS Configuration.
+// This is called from index.html 
+// and calls our bootstrap file main.ts
+// which launches the app
 const SYSTEM_CONFIG_DEV = {
   defaultJSExtensions: true,
   paths: {
