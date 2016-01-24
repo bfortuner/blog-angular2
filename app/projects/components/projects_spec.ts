@@ -17,7 +17,7 @@ export function main() {
           .then((rootTC) => {
             let projectsDOMEl = rootTC.debugElement.componentViewChildren[0].nativeElement;
 
-            expect(DOM.querySelectorAll(projectsDOMEl, 'h1')[0].textContent).toEqual('Projects');
+            expect(DOM.querySelectorAll(projectsDOMEl, 'h2')[0].textContent).toEqual('Projects');
           });
       }));
   });

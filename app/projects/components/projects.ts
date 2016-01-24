@@ -16,8 +16,12 @@ interface Project {
 
 var PROJECTS: Project[] = [
   {
-    'title': 'BigNeuron',
-    'desc': `oinoins`,
+    'title': 'BigNeuron API',
+    'desc': `A fully managed cloud service for generating 3D reconstructions of single neurons.
+             Built on top of the open-source 3D imaging library Vaa3D, the tool utilizes EC2 
+             Autoscaling, Docker containers, and Map Reduce techniques to provide on-demand
+             high performance compute at minimal cost. A collaboration with researchers at 
+             the Allen Institute for Brain Science in Seattle.`,
     'urls' : [
       {
         'name' : 'Console',
@@ -30,9 +34,13 @@ var PROJECTS: Project[] = [
       {
         'name' : 'Github (Frontend)',
         'link' : 'https://github.com/bfortuner/vaa3d-website'
+      },
+      {
+        'name' : 'BigNeuron Project',
+        'link' : 'http://alleninstitute.org/bigneuron/about/'
       }
     ],
-    'stack': 'Python, Flask, AngularJS, DynamoDB, Docker, AWS (Autoscaling, ECS, RDS, SQS, SES)',
+    'stack': 'Python, Angular, DynamoDB, Docker, AWS (Autoscaling, ECS, RDS, SQS, SES, S3)',
     'created': '2015'
   },
   {
@@ -77,8 +85,8 @@ var PROJECTS: Project[] = [
   },
   {
     'title': 'The Yellow Journal',
-    'desc': `Helped relaunch University of Virgina's oldest humor publication, Ye Yellow Journal. 
-            Founded in 1912 under the slogan "All The News That Is Unfit To Print," the Journal 
+    'desc': `Relaunched University of Virgina's oldest humor publication, Ye Yellow Journal. 
+            Originally founded in 1912 under the slogan "All The News That Is Unfit To Print," the Journal 
             was discontinued in 1934 when the University's Administrative Council set forth an 
             order forbidding "the publication or sale of any anonymous paper", citing material 
             they found "scurrilous and indecent in the extreme." Today the Journal is published 
@@ -90,11 +98,15 @@ var PROJECTS: Project[] = [
       },
       {
         'name' : 'Issue 1',
-        'link' : '/img/issue1.pdf'
+        'link' : './assets/img/issue1.pdf'
       },
       {
         'name' : 'Issue 2',
-        'link' : '/img/issue2.pdf'
+        'link' : './assets/img/issue2.pdf'
+      },
+      {
+        'name' : 'Issue 3',
+        'link' : './assets/img/issue3.pdf'
       }
     ],
     'stack': 'Pen, Paper',
