@@ -7,6 +7,7 @@ import {
 import {PostsCmp} from '../../posts/components/posts';
 import {ProjectsCmp} from '../../projects/components/projects';
 import {AboutCmp} from '../../about/components/about';
+import {BioCmp} from '../../bio/components/bio';
 import {NameList} from '../../shared/services/name_list';
 
 @Component({
@@ -20,6 +21,7 @@ import {NameList} from '../../shared/services/name_list';
 @RouteConfig([
   { path: '/', component: PostsCmp, as: 'Posts' },
   { path: '/projects', component: ProjectsCmp, as: 'Projects' },
+  { path: '/bio', component: BioCmp, as: 'Bio' },
   { path: '/about', component: AboutCmp, as: 'About' }
 ])
 export class AppCmp {}

@@ -6,7 +6,7 @@ interface Url {
   link: string;
 }
 
-interface Project {
+interface Bio {
   title: string;
   desc: string;
   urls: Url[];
@@ -14,7 +14,7 @@ interface Project {
   created: string;
 }
 
-var PROJECTS: Project[] = [
+var bios: Bio[] = [
   {
     'title': 'BigNeuron API',
     'desc': `A fully managed cloud service for generating 3D reconstructions of single neurons.
@@ -114,35 +114,12 @@ var PROJECTS: Project[] = [
   }
 ];
 
-
-// var project1: Project = {
-//   id: 1,
-//   title: 'My First Project',
-//   desc: 'This is post is about blah and blah.',
-//   created: '2016'
-// };
-
-// class ProjectList {
-//   projects = [project1, project1, project1];
-//   get(): Project[] {
-//     return this.projects;
-//   }
-//   add(value: string): void {
-//     this.projects.push(value);
-//   }
-// }
-
-//var projectList = new ProjectList();
-
 @Component({
-  selector: 'projects',
-  templateUrl: './projects/components/projects.html',
-  styleUrls: ['./projects/components/projects.css'],
+  selector: 'bio',
+  templateUrl: './bio/components/bio.html',
+  styleUrls: ['./bio/components/bio.css'],
   directives: [CORE_DIRECTIVES, FORM_DIRECTIVES]
 })
-export class ProjectsCmp {
-  // public project = project1;
-  // public projectList = projectList;
-  public projects = PROJECTS;
-  //constructor(public projectsList: ProjectList) {}
+export class BioCmp {
+  public bios = bios;
 }
