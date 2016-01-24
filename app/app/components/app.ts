@@ -5,6 +5,7 @@ import {
 } from 'angular2/router';
 
 import {PostsCmp} from '../../posts/components/posts';
+import {ProjectsCmp} from '../../projects/components/projects';
 import {AboutCmp} from '../../about/components/about';
 import {NameList} from '../../shared/services/name_list';
 
@@ -18,6 +19,7 @@ import {NameList} from '../../shared/services/name_list';
 })
 @RouteConfig([
   { path: '/', component: PostsCmp, as: 'Posts' },
+  { path: '/projects', component: ProjectsCmp, as: 'Projects' },
   { path: '/about', component: AboutCmp, as: 'About' }
 ])
 export class AppCmp {}

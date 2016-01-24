@@ -1,0 +1,19 @@
+<h2>
+  Projects
+</h2>
+
+<div>
+<ul class="project-list">
+  <li *ngFor="#project of projects">
+    <b>{{project.title}}</b>&nbsp; <span>{{project.created}}</span>
+    <p>
+      {{project.desc}}
+    <br>
+    <span *ngFor="#url of project.urls">
+      <a href="{{url.link}}">{{url.name}}</a> - 
+    </span>
+    <i>// {{project.stack}} </i>
+    </p>
+  </li>
+</ul>
+</div>
