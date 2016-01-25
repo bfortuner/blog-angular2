@@ -1,9 +1,69 @@
-<section class="sample-app-content">
-  <nav>
-    <a [routerLink]="['/Posts']">Posts</a>
-	<a [routerLink]="['/Projects']">Projects</a>
-    <a [routerLink]="['/Bio']">Bio</a>
-  </nav>
+<!-- <div style='background-image:url("./assets/img/tiles2.png"); background-color: #f0f0f0;' class="site-wrapper"> -->
+ <div style="padding-top:30px;" class="container">
+    <!--   <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Posts</a></li>
+            <li role="presentation"><a href="#">Projects</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <h2 class="text-muted">Brendan Fortuner</h2>
+      </div> -->
 
-  <router-outlet></router-outlet>
-</section>
+      <div class="row">
+
+        <div class="col-sm-3 blog-sidebar">
+          <div class="sidebar-module">
+          <h3>Brendan Fortuner</h3>
+          <ul class="nav nav-item">
+          	<nav>
+							<li class="active"><a [routerLink]="['/Posts']">Posts</a></li>
+							<li><a [routerLink]="['/Projects']">Projects</a></li>
+							<li><a [routerLink]="['/Bio']">Bio</a></li>
+						</nav>
+          </ul>
+          </div>
+          <div class="sidebar-module">
+            <img class="resizingimg" src="./assets/img/profilepic.jpg"/>
+						<p>
+							Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+						</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="http://github.com/bfortuner" target="_blank">GitHub</a></li>
+              <li>
+              	<a href="http://www.linkedin.com/in/bfortuner" target="_blank">LinkedIn</a>
+              </li>
+              <li>
+              	<a href="http://www.goodreads.com/user/show/3966837-brendan-fortuner" 
+              	target="_blank">Goodreads
+              	</a>
+              </li>
+              <li>
+              	<a href="https://medium.com/@bfortuner/publications" target="_blank">Medium</a>
+              </li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+        <div class="col-sm-9 blog-main">
+
+        	<div class="blog-post">
+            <router-outlet></router-outlet>
+          </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p>Hacked together with <a href="https://github.com/bfortuner/blog-angular2">Angular 2.0</a></p>
+      <p>
+        <a href="#">Take me home</a>
+      </p>
+    </footer>

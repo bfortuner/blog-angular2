@@ -1,10 +1,39 @@
-.note {
-  color: #a8a8a8;
+/*
+ * Project-specific CSS
+ */
+.project {
+	margin-bottom:20px;
 }
-smile {
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-  vertical-align: bottom;
-  background: url("./assets/img/smile.png");
+.project-header-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.project-header {
+  margin-bottom: 5px;
+  margin-top:0px;
+  padding-top:0px;
+  font-size: 2.0em;
+}
+.project-title {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 0px;
+  margin-top:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  font-size: 1.3em;
+}
+.project-desc {
+  font-size: 1em;
+  line-height: 1.4;
+}
+.project-stack {
+  font-size: .8em;
+  line-height: 1.4;
+  color: #999;
+  padding-bottom:0px;
+  margin-bottom:0px;
 }

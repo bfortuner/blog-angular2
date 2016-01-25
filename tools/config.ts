@@ -54,6 +54,7 @@ interface InjectableDependency {
   dest?: string;
 }
 
+// Ah ha! Here is where we 'inject' node_modules like Boostrap 3
 // Declare NPM dependencies (Note that globs should not be injected).
 export const DEV_NPM_DEPENDENCIES: InjectableDependency[] = normalizeDependencies([
   { src: 'systemjs/dist/system-polyfills.src.js', inject: 'shims', dest: JS_DEST },
