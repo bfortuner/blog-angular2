@@ -2,13 +2,12 @@
  * Project-specific CSS
  */
 .project {
-	margin-bottom:20px;
+	margin-bottom:22px;
 }
 .project-header-meta {
   margin-bottom: 20px;
   color: #999;
 }
-
 .project-header {
   margin-bottom: 5px;
   margin-top:0px;
@@ -31,9 +30,9 @@
   line-height: 1.4;
 }
 .project-stack {
-  font-size: .8em;
+  font-size: .9em;
   line-height: 1.4;
   color: #999;
   padding-bottom:0px;
-  margin-bottom:0px;
+  margin-bottom:2px;
 }
