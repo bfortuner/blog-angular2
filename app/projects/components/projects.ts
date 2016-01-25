@@ -16,7 +16,7 @@ interface Project {
 
 var PROJECTS: Project[] = [
   {
-    'title': 'BigNeuron API',
+    'title': 'BigNeuron',
     'desc': `Fully-managed cloud service for generating 3D reconstructions of single neurons.
              Built on top of the open-source 3D imaging library Vaa3D, the tool utilizes
              Autoscaling and Map Reduce techniques to provide on-demand
