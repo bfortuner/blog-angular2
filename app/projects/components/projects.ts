@@ -112,15 +112,15 @@ var PROJECTS: Project[] = [
       },
       {
         'name' : 'Issue 1',
-        'link' : './assets/img/issue1.pdf'
+        'link' : 'https://s3-us-west-2.amazonaws.com/bfortuner-personal/issue1.pdf'
       },
       {
         'name' : 'Issue 2',
-        'link' : './assets/img/issue2.pdf'
+        'link' : 'https://s3-us-west-2.amazonaws.com/bfortuner-personal/issue2.pdf'
       },
       {
         'name' : 'Issue 3',
-        'link' : './assets/img/issue3.pdf'
+        'link' : 'https://s3-us-west-2.amazonaws.com/bfortuner-personal/issue3.pdf'
       }
     ],
     'stack': 'Pen, Paper',
