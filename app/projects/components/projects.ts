@@ -80,6 +80,10 @@ var PROJECTS: Project[] = [
       {
         'name' : 'Github',
         'link' : 'https://github.com/bfortuner/jimini'
+      },
+      {
+        'name' : 'Pitch Deck',
+        'link' : '//s3-us-west-2.amazonaws.com/bfortuner-personal/Jimini+Deck.ppt'
       }
     ],
     'stack': 'Python, Django',

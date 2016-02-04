@@ -1,7 +1,6 @@
 dist/
 tmp/
 .DS_Store
-app/posts/
 dist/
 docs/
 node_modules/
