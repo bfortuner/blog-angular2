@@ -8,10 +8,11 @@ Bootstrapped with awesome https://github.com/mgechev/angular2-seed project
 # setup node virtual environment
 pip install nodeenv
 nodeenv blog_env (run this one directory above repo)
-blog_env/bin/activate
+source blog_env/bin/activate
 
 # install the project's dependencies
-npm install
+npm install 
+*if you receive an error, may need to run: npm install -g ts-node, then npm install 
 # watches your files and uses livereload by default
 npm start
 # api document for the app
