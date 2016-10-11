@@ -7,3 +7,4 @@ node_modules/
 test/
 tmp/
 tools/typings/tsd/
+npm-debug.log

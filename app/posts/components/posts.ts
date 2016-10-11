@@ -15,23 +15,17 @@ interface Post {
 
 var posts: Post[] = [
   {
-    'title': 'Which Startup Industry Should I Join??',
-    'desc': 'A short overview of the top startup industries by data from crunchbase.',
-    'url' : '//medium.com/%40bfortuner/publications',
-    'created': 'December 2015'
+    'title': 'How I Survived Fasting 5 Days with One Weird Trick',
+    'desc': 'What it\'s like to skip 15 meals',
+    'url' : '//medium.com/@bfortuner/how-i-survived-fasting-for-five-days-using-one-weird-trick-8629166bf2ad',
+    'created': 'October 2016'
   },
   {
-    'title': 'My Second Blog Entry',
-    'desc': 'A short overview of the top startup industries by data from crunchbase.',
-    'url' : '//medium.com/%40bfortuner/publications',
-    'created': 'October 2015'
+    'title': 'Python Unit Testing with Pytest and Mock',
+    'desc': 'An example-based tutorial on writing unit tests in Python with two helpful libraries',
+    'url' : '//medium.com/@bfortuner/python-unit-testing-with-pytest-and-mock-197499c4623c',
+    'created': 'January 2016'
   },
-  {
-    'title': 'First Blog Entry Ever',
-    'desc': 'A short overview of the top startup industries by data from crunchbase.',
-    'url' : '//medium.com/%40bfortuner/publications',
-    'created': 'September 2014'
-  }
 ];
 
 @Component({

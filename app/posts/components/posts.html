@@ -1,10 +1,10 @@
 <h2 class="entry-header">Posts</h2>
 <p class="entry-header-meta">
-	A mildly spicy potpourri of writings
+	Collection of articles and essays
 </p>
 
 <div class="post" *ngFor="#post of posts">
-  <p class="post-title"><a href="{{post.url}}">{{post.title}}</a></p>
   <p class="entry-meta">{{post.created}}</p>
-  <!-- <p class="entry-desc"> {{post.desc}}</p> -->
+  <p class="post-title"><a href="{{post.url}}">{{post.title}}</a></p>
+  <p class="post-desc"> {{post.desc}}</p>
 </div>

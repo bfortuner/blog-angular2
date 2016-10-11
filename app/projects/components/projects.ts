@@ -16,10 +16,56 @@ interface Project {
 
 var PROJECTS: Project[] = [
   {
+    'title': 'SmartCushion',
+    'desc': `SmartCushion turns any chair into a Smart Chair! It tracks 
+    how long you\'ve been sitting and reminds you to take breaks. 
+    If you slouch, it buzzes to correct your posture!`,
+    'urls' : [
+      {
+        'name' : 'Pic 1',
+        'link' : '//s3-us-west-2.amazonaws.com/bfortuner-personal/IMG_20161009_184553518.jpg'
+      },
+      {
+        'name' : 'Pic 2',
+        'link' : '//s3-us-west-2.amazonaws.com/bfortuner-personal/IMG_20161009_184210939.jpg'
+      },
+      {
+        'name' : 'Github',
+        'link' : '//github.com/bfortuner/smart_chair'
+      }
+    ],
+    'stack': 'Python, Postgres, Raspberry Pi, Duct Tape, Cardboard',
+    'created': 'August 2016'
+  },
+  {
+    'title': 'HapiBot',
+    'desc': 'Won 2nd Place at Hack For Healthcare building a Facebook Messenger Bot for Epilepics to track their seizures.',
+    'urls' : [
+      {
+        'name' : 'Chat with Hapi',
+        'link' : 'http://m.me/hapibot'
+      },
+      {
+        'name' : 'Github (Backend)',
+        'link' : 'https://github.com/bfortuner/vaa3d-api'
+      },
+      {
+        'name' : 'Github (Frontend)',
+        'link' : 'https://github.com/bfortuner/hapibot'
+      },
+      {
+        'name' : 'HackForHealthcare',
+        'link' : 'https://hackforhealthcare.splashthat.com'
+      }
+    ],
+    'stack': 'Python, Node.js, Postgres, Heroku',
+    'created': 'August 2016'
+  },
+  {
     'title': 'BigNeuron',
-    'desc': `Fully-managed cloud service for generating 3D neuron reconstructions using auto-scaling, 
-             MapReduce, and open-source imaging library, Vaa3D. A collaboration with researchers at 
-             the Allen Institute for Brain Science in Seattle.`,
+    'desc': `Cloud-based 3D neuron reconstructions using auto-scaling 
+    and imaging library Vaa3D. In collaboration with researchers from
+    the Allen Institute for Brain Science.`,
     'urls' : [
       {
         'name' : 'Console',
@@ -43,7 +89,7 @@ var PROJECTS: Project[] = [
   },
   {
     'title': 'Problee',
-    'desc': `Learn to program without touching a keyboard! Mobile app designed to make learning 
+    'desc': `Learn to program on your phone! Mobile app designed to make learning 
              to code easy using drag-and-drop templates, word banks, and Pandora-style shuffling.`,
     'urls' : [
       {
@@ -60,8 +106,8 @@ var PROJECTS: Project[] = [
   },
   {
     'title': 'Milestone',
-    'desc': `Won 1st place at Angel Hack Seattle building a mobile app "Search Engine For Your 
-             Dream Job." Uses the LinkedIn API to return aggregate statistics about job roles, 
+    'desc': `Won 1st place at Angel Hack Seattle building a "Search Engine For Your 
+             Dream Job." Used the LinkedIn API to return aggregate statistics about job roles, 
              universities, degrees, and geographies of employees holding a user's dream job.`,
     'urls' : [
       {
