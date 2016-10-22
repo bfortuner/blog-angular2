@@ -15,8 +15,8 @@ interface Post {
 
 var posts: Post[] = [
   {
-    'title': 'How I Survived Fasting 5 Days with One Weird Trick',
-    'desc': 'What it\'s like to skip 15 meals',
+    'title': 'Fasting For Five Days',
+    'desc': 'Results of my fast, including impact on epilepsy, weight, and mental focus.',
     'url' : '//medium.com/@bfortuner/how-i-survived-fasting-for-five-days-using-one-weird-trick-8629166bf2ad',
     'created': 'October 2016'
   },

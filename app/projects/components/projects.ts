@@ -39,7 +39,7 @@ var PROJECTS: Project[] = [
   },
   {
     'title': 'HapiBot',
-    'desc': 'Won 2nd Place at Hack For Healthcare building a Facebook Messenger Bot for Epilepics to track their seizures.',
+    'desc': 'Won 2nd Place at Hack For Healthcare building a Facebook Messenger Bot for epileptics to track their seizures.',
     'urls' : [
       {
         'name' : 'Chat with Hapi',
