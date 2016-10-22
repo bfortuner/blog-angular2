@@ -16,7 +16,7 @@ interface Post {
 var posts: Post[] = [
   {
     'title': 'Fasting For Five Days',
-    'desc': 'Results of my fast, including impact on epilepsy, weight, and mental focus.',
+    'desc': 'Learnings and impact on epileptic auras, weight, and mental focus.',
     'url' : '//medium.com/@bfortuner/how-i-survived-fasting-for-five-days-using-one-weird-trick-8629166bf2ad',
     'created': 'October 2016'
   },
