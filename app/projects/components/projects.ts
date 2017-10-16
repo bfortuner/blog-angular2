@@ -16,6 +16,86 @@ interface Project {
 
 var PROJECTS: Project[] = [
   {
+    'title': 'LabelML',
+    'desc': `Machine learning image annotation tool 
+             accelerated with semi-supervised learning.`,
+    'urls' : [
+      {
+        'name' : 'Website',
+        'link' : '//labelml.com'
+      },
+      {
+        'name' : 'Github',
+        'link' : '//github.com/bfortuner/labelml'
+      },
+    ],
+    'stack': 'Vue.js, Fabric.js, Python, Pytorch',
+    'created': 'September 2017'
+  },
+  {
+    'title': 'ZooSearch',
+    'desc': `Search engine for machine learning models and datasets.`,
+    'urls' : [
+      {
+        'name' : 'Website',
+        'link' : '//zoosearch.surge.sh'
+      },
+      {
+        'name' : 'Github',
+        'link' : '//github.com/bfortuner/zoosearch'
+      },
+    ],
+    'stack': 'React.js, Fuse.js',
+    'created': 'August 2017'
+  },
+  {
+    'title': 'Pytorch Kaggle Starter',
+    'desc': `Pytorch starter kit for Kaggle competitions. Boilerplate for model training, data loading, 
+              adjusting learning rates, ensembling models, and formatting submissions.`,
+    'urls' : [
+      {
+        'name' : 'Github',
+        'link' : '//github.com/bfortuner/pytorch-kaggle-starter'
+      },
+    ],
+    'stack': 'Python, Pytorch, Kibana, ElasticSearch',
+    'created': 'July 2017'
+  },
+  {
+    'title': 'Machine Learning Cheatsheet',
+    'desc': `Glossary of machine learning concepts
+             presented as software documentation.`,
+    'urls' : [
+      {
+        'name' : 'Website',
+        'link' : '//ml-cheatsheet.readthedocs.io/en/latest'
+      },
+      {
+        'name' : 'Github',
+        'link' : '//github.com/bfortuner/ml-cheatsheet'
+      },
+    ],
+    'stack': 'Markdown, Python',
+    'created': 'June 2017'
+  },
+  {
+    'title': 'One Hundred Layers Tiramisu',
+    'desc': `Pytorch implementation of One Hundred Layers Tiramisu for
+              semantic segementation.`,
+    'urls' : [
+      {
+        'name' : 'Paper',
+        'link' : '//arxiv.org/abs/1611.09326'
+      },
+      {
+        'name' : 'Github',
+        'link' : '//github.com/bfortuner/pytorch_tiramisu'
+      },
+    ],
+    'stack': 'Vue.js, Fabric.js, Python, Pytorch',
+    'created': 'April 2017'
+  },
+  {
     'title': 'SmartCushion',
     'desc': `SmartCushion turns any chair into a Smart Chair! It tracks 
     how long you\'ve been sitting and reminds you to take breaks. 
@@ -47,7 +127,7 @@ var PROJECTS: Project[] = [
       },
       {
         'name' : 'Github (Backend)',
-        'link' : 'https://github.com/bfortuner/vaa3d-api'
+        'link' : 'https://github.com/bfortuner/epilepsy_diary'
       },
       {
         'name' : 'Github (Frontend)',
@@ -92,10 +172,10 @@ var PROJECTS: Project[] = [
     'desc': `Learn to program on your phone! Mobile app designed to make learning 
              to code easy using drag-and-drop templates, word banks, and Pandora-style shuffling.`,
     'urls' : [
-      {
-        'name' : 'Website',
-        'link' : 'http://www.problee.com'
-      },
+      // {
+      //   'name' : 'Website',
+      //   'link' : 'http://www.problee.com'
+      // },
       {
         'name' : 'Github',
         'link' : 'http://github.com/bfortuner/probleeyo'
